@@ -1,0 +1,3 @@
+This is the create statement to match columns.
+
+create table parsehtmldata (prevclose float(7,4), open float(7,4), bid varchar(50), ask varchar(50), yeartarget float(7,4), beta float(7,4), earningsdata varchar(50), dayrange varchar(50), yearrange varchar(50), volume int);
