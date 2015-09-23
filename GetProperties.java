@@ -23,6 +23,8 @@ public class GetProperties {
                                 url = value;
                         }else if(key.matches("logfile") && value != null){
                                 logfile=value;
+                        }else if(key.matches("classname") && value != null){
+                                classname=value;
                         } else {
                                 System.out.println("Unknown key/value pair. Skipping.");
                                 System.out.println(key + " " + value);
@@ -38,6 +40,9 @@ public class GetProperties {
         }
         public String selectLogFile(){
                 return logfile;
+        }
+        public String selectClassName(){
+                return classname;
         }
         
 }
