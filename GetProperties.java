@@ -19,10 +19,8 @@ public class GetProperties {
                         String value = prop.getProperty(key);
                         if(key.matches("stock") && value != null) {
                                 stock = value;
-                                System.out.println(stock);
                         }else if(key.matches("url") && value != null) {
                                 url = value;
-                                System.out.println(url);
                         }else if(key.matches("logfile") && value != null){
                                 logfile=value;
                         } else {
