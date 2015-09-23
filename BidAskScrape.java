@@ -28,7 +28,7 @@ public class BidAskScrape {
         String symbol = stocksymbol[1];
         doc = Jsoup.connect(url).get();
         
-                Elements yfnc = doc.getElementsByClass("yfnc_tabledata1");
+                Elements yfnc = doc.getElementsByClass(gp.selectClassName());
                 Float p_close;
                 Float open;
                 String bid;
