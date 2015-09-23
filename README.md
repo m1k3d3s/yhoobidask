@@ -5,3 +5,4 @@ This java code takes JSoup to scrape yahoo finance with any particular ticker an
 1. Jsoup needed - jar needed
 2. mySql access needed - jar needed 
 3. mySql table to be created - see .txt file
+4. key / value pairs stored in bidask.config
